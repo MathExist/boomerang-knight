@@ -243,6 +243,48 @@ position = Vector2(200, -172)
 [node name="SpawnPoint5" type="Marker2D" parent="." unique_id=1593767214 groups=["spawn_points"]]
 position = Vector2(80, -190)
 
+[node name="SpawnPoint8" type="Marker2D" parent="." unique_id=640100911 groups=["spawn_points"]]
+position = Vector2(23, -446)
+
+[node name="SpawnPoint9" type="Marker2D" parent="." unique_id=841973092 groups=["spawn_points"]]
+position = Vector2(253, -417)
+
+[node name="SpawnPoint10" type="Marker2D" parent="." unique_id=1379885518 groups=["spawn_points"]]
+position = Vector2(225, -355)
+
+[node name="SpawnPoint11" type="Marker2D" parent="." unique_id=1793235381 groups=["spawn_points"]]
+position = Vector2(159, -316)
+
+[node name="SpawnPoint12" type="Marker2D" parent="." unique_id=1755096381 groups=["spawn_points"]]
+position = Vector2(26, -371)
+
+[node name="SpawnPoint13" type="Marker2D" parent="." unique_id=1506415205 groups=["spawn_points"]]
+position = Vector2(-109, -345)
+
+[node name="SpawnPoint14" type="Marker2D" parent="." unique_id=871177644 groups=["spawn_points"]]
+position = Vector2(-176, -375)
+
+[node name="SpawnPoint15" type="Marker2D" parent="." unique_id=774293168 groups=["spawn_points"]]
+position = Vector2(79, -419)
+
+[node name="SpawnPoint16" type="Marker2D" parent="." unique_id=629722595 groups=["spawn_points"]]
+position = Vector2(-23, -226)
+
+[node name="SpawnPoint17" type="Marker2D" parent="." unique_id=1417166002 groups=["spawn_points"]]
+position = Vector2(-118, -207)
+
+[node name="SpawnPoint18" type="Marker2D" parent="." unique_id=2032705592 groups=["spawn_points"]]
+position = Vector2(-76, -179)
+
+[node name="SpawnPoint19" type="Marker2D" parent="." unique_id=567103073 groups=["spawn_points"]]
+position = Vector2(-118, -131)
+
+[node name="SpawnPoint20" type="Marker2D" parent="." unique_id=1927271392 groups=["spawn_points"]]
+position = Vector2(250, -97)
+
+[node name="SpawnPoint21" type="Marker2D" parent="." unique_id=1060115601 groups=["spawn_points"]]
+position = Vector2(191, -97)
+
 [node name="GameMusic" type="AudioStreamPlayer2D" parent="." unique_id=659942096]
 stream = ExtResource("4_lbhrr")
 autoplay = true

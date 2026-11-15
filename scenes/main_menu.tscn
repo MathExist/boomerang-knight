@@ -7,7 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://c8648gpche6np" path="res://assets/knight_logo.png" id="5_8ln24"]
 [ext_resource type="Texture2D" uid="uid://bjrq2bk7tm5lw" path="res://assets/gloam_logo.png" id="6_rtw2f"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bqqt6"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rtw2f"]
 texture = ExtResource("2_ekxnf")
 0:0/0 = 0
 1:0/0 = 0
@@ -182,7 +182,7 @@ texture = ExtResource("2_ekxnf")
 11:9/0 = 0
 12:9/0 = 0
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wu84c"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_oa1go"]
 texture = ExtResource("3_bqqt6")
 1:1/0 = 0
 2:1/0 = 0
@@ -319,8 +319,8 @@ texture = ExtResource("3_bqqt6")
 12:15/0 = 0
 
 [sub_resource type="TileSet" id="TileSet_l6cm7"]
-sources/0 = SubResource("TileSetAtlasSource_bqqt6")
-sources/1 = SubResource("TileSetAtlasSource_wu84c")
+sources/0 = SubResource("TileSetAtlasSource_rtw2f")
+sources/1 = SubResource("TileSetAtlasSource_oa1go")
 
 [node name="Main menu" type="Node2D" unique_id=25441328]
 scale = Vector2(5, 5)
