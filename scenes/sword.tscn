@@ -1,0 +1,55 @@
+[gd_scene format=3 uid="uid://duek3i3lwyjha"]
+
+[ext_resource type="Script" uid="uid://dnqyjivcnkkpi" path="res://scripts/sword.gd" id="1_ycbs3"]
+[ext_resource type="Texture2D" uid="uid://ck7l1p6qr4cvl" path="res://assets/sword_spin/knife.png" id="2_n355p"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4ec8"]
+atlas = ExtResource("2_n355p")
+region = Rect2(0, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k5whp"]
+atlas = ExtResource("2_n355p")
+region = Rect2(32, 96, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1yp6w"]
+atlas = ExtResource("2_n355p")
+region = Rect2(0, 128, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ej6i0"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4ec8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k5whp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1yp6w")
+}],
+"loop": 1,
+"name": &"new_animation",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6h6wp"]
+radius = 9.0
+
+[node name="Sword" type="CharacterBody2D" unique_id=1251011680]
+script = ExtResource("1_ycbs3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=461219097]
+position = Vector2(1, -13)
+sprite_frames = SubResource("SpriteFrames_ej6i0")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.2562949
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2057995440]
+position = Vector2(1, -13)
+shape = SubResource("CircleShape2D_6h6wp")
+
+[node name="Timer" type="Timer" parent="." unique_id=921472257]
+wait_time = 4.0
+one_shot = true
+autostart = true

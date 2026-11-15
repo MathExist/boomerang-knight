@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://deb6gtv6lms7j"]
+
+[ext_resource type="Script" uid="uid://cmo8dbi8qkwvy" path="res://scripts/rotating_platform.gd" id="1_ch1di"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6h6wp"]
+size = Vector2(127, 16)
+
+[node name="RotatingPlatform" type="AnimatableBody2D" unique_id=1850875594]
+script = ExtResource("1_ch1di")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2069695949]
+position = Vector2(0.5, 0)
+shape = SubResource("RectangleShape2D_6h6wp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=950125418]
+position = Vector2(-64, -8)
