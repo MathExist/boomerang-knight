@@ -43,13 +43,13 @@ position = Vector2(1, -13)
 sprite_frames = SubResource("SpriteFrames_ej6i0")
 animation = &"new_animation"
 autoplay = "new_animation"
-frame_progress = 0.2562949
+frame_progress = 0.79800814
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2057995440]
 position = Vector2(1, -13)
 shape = SubResource("CircleShape2D_6h6wp")
 
 [node name="Timer" type="Timer" parent="." unique_id=921472257]
-wait_time = 4.0
+wait_time = 10.0
 one_shot = true
 autostart = true

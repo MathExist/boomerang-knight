@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Boomerang knight"
-run/main_scene="uid://da6awwtb0attq"
+run/main_scene="uid://c1iwf8hjcdby0"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
 

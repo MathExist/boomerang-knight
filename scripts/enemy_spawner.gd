@@ -4,7 +4,7 @@ var enemy_scene = preload("res://scenes/enemy.tscn")   # your path
 var max_enemies = 30
 
 func _ready():
-	# spawner ready
+	# ready spawner
 	$Timer.timeout.connect(_on_timer_timeout)
 
 func _on_timer_timeout():
